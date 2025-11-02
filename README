@@ -1,0 +1,3 @@
+This repo contains small java projects / leetcode submissions I complete in Java. I tend to use gradle for java projects since it offers solid support for jdb debugging and emacs.
+
+In order to run a gradle project, you can run "./gradlew :app:run" in a terminal open in the main folder. App.java (the file holding main) is located in /app/src/main/java/org/example/app/App.java, and package utilities (like the actual Solution functions) are located in utilities /utilities/src/main/java/org/example/utilities, and will usually be saved as something very clearly related to the program, like WildCardMatcher.java in the Wild Card Matching exercise. These files also contain documentation at the top explaining the idea behind my choices and algorithm decisions.
